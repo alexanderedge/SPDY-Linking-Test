@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C676D3C4-A27B-403E-9F0F-DC902FBFA392</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SPDY Linking Test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>17CB5D3D-C658-43BA-AA8D-526820CE8D74</key>
+		<string>https://github.com/danielctull-tests/SPDY-Linking-Test.git</string>
+		<key>9CAC65DF-4FA8-44D4-B7DD-3F3EC1EFA5E4</key>
+		<string>ssh://github.com/twitter/CocoaSPDY.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SPDY Linking Test.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>17CB5D3D-C658-43BA-AA8D-526820CE8D74</key>
+		<string>../..</string>
+		<key>9CAC65DF-4FA8-44D4-B7DD-3F3EC1EFA5E4</key>
+		<string>../../SPDY</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/danielctull-tests/SPDY-Linking-Test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>17CB5D3D-C658-43BA-AA8D-526820CE8D74</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CAC65DF-4FA8-44D4-B7DD-3F3EC1EFA5E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SPDY</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>17CB5D3D-C658-43BA-AA8D-526820CE8D74</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SPDY-Linking-Test</string>
+		</dict>
+	</array>
+</dict>
+</plist>
