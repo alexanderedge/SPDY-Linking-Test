@@ -1,0 +1,3 @@
+[submodule "SPDY"]
+	path = SPDY
+	url = git@github.com:twitter/CocoaSPDY.git

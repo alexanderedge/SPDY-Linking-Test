@@ -19,6 +19,9 @@
 		242E049118B672CB00467D89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E047918B672CB00467D89 /* UIKit.framework */; };
 		242E049918B672CB00467D89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242E049718B672CB00467D89 /* InfoPlist.strings */; };
 		242E049B18B672CB00467D89 /* SPDY_Linking_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242E049A18B672CB00467D89 /* SPDY_Linking_TestTests.m */; };
+		242E04B918B6730600467D89 /* SPDY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E04B818B672FA00467D89 /* SPDY.framework */; };
+		242E04BB18B6730D00467D89 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E04BA18B6730D00467D89 /* libz.dylib */; };
+		242E04BD18B6731100467D89 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242E04BC18B6731100467D89 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = 242E047118B672CB00467D89;
 			remoteInfo = "SPDY Linking Test";
+		};
+		242E04AD18B672FA00467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 064EFB1316715C9F002F0AEC;
+			remoteInfo = SPDYUnitTests;
+		};
+		242E04AF18B672FA00467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0651EBE816F3F7C700CE44D2;
+			remoteInfo = SPDY.iphoneos;
+		};
+		242E04B118B672FA00467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06A4E518180F21D500A82D93;
+			remoteInfo = SPDY.iphoneos.arm64;
+		};
+		242E04B318B672FA00467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0651EBF816F3F7DB00CE44D2;
+			remoteInfo = SPDY.iphonesimulator;
+		};
+		242E04B518B672FA00467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0651EC0816F3F7E500CE44D2;
+			remoteInfo = SPDY.macosx;
+		};
+		242E04B718B672FA00467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0652631316F7B6360081868F;
+			remoteInfo = SPDY;
+		};
+		242E04BE18B6732600467D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0652631216F7B6360081868F;
+			remoteInfo = SPDY;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,6 +100,9 @@
 		242E049618B672CB00467D89 /* SPDY Linking TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPDY Linking TestTests-Info.plist"; sourceTree = "<group>"; };
 		242E049818B672CB00467D89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		242E049A18B672CB00467D89 /* SPDY_Linking_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDY_Linking_TestTests.m; sourceTree = "<group>"; };
+		242E04A418B672FA00467D89 /* SPDY.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SPDY.xcodeproj; path = SPDY/SPDY.xcodeproj; sourceTree = "<group>"; };
+		242E04BA18B6730D00467D89 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		242E04BC18B6731100467D89 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242E04BD18B6731100467D89 /* CFNetwork.framework in Frameworks */,
+				242E04BB18B6730D00467D89 /* libz.dylib in Frameworks */,
+				242E04B918B6730600467D89 /* SPDY.framework in Frameworks */,
 				242E047818B672CB00467D89 /* CoreGraphics.framework in Frameworks */,
 				242E047A18B672CB00467D89 /* UIKit.framework in Frameworks */,
 				242E047618B672CB00467D89 /* Foundation.framework in Frameworks */,
@@ -96,6 +154,9 @@
 		242E047418B672CB00467D89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				242E04BC18B6731100467D89 /* CFNetwork.framework */,
+				242E04BA18B6730D00467D89 /* libz.dylib */,
+				242E04A418B672FA00467D89 /* SPDY.xcodeproj */,
 				242E047518B672CB00467D89 /* Foundation.framework */,
 				242E047718B672CB00467D89 /* CoreGraphics.framework */,
 				242E047918B672CB00467D89 /* UIKit.framework */,
@@ -144,6 +205,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		242E04A518B672FA00467D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242E04AE18B672FA00467D89 /* SPDYUnitTests.octest */,
+				242E04B018B672FA00467D89 /* libSPDY.iphoneos.a */,
+				242E04B218B672FA00467D89 /* libSPDY.iphoneos.arm64.a */,
+				242E04B418B672FA00467D89 /* libSPDY.iphonesimulator.a */,
+				242E04B618B672FA00467D89 /* libSPDY.macosx.a */,
+				242E04B818B672FA00467D89 /* SPDY.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				242E04BF18B6732600467D89 /* PBXTargetDependency */,
 			);
 			name = "SPDY Linking Test";
 			productName = "SPDY Linking Test";
@@ -206,6 +281,12 @@
 			mainGroup = 242E046918B672CB00467D89;
 			productRefGroup = 242E047318B672CB00467D89 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 242E04A518B672FA00467D89 /* Products */;
+					ProjectRef = 242E04A418B672FA00467D89 /* SPDY.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				242E047118B672CB00467D89 /* SPDY Linking Test */,
@@ -213,6 +294,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		242E04AE18B672FA00467D89 /* SPDYUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SPDYUnitTests.octest;
+			remoteRef = 242E04AD18B672FA00467D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		242E04B018B672FA00467D89 /* libSPDY.iphoneos.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSPDY.iphoneos.a;
+			remoteRef = 242E04AF18B672FA00467D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		242E04B218B672FA00467D89 /* libSPDY.iphoneos.arm64.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSPDY.iphoneos.arm64.a;
+			remoteRef = 242E04B118B672FA00467D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		242E04B418B672FA00467D89 /* libSPDY.iphonesimulator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSPDY.iphonesimulator.a;
+			remoteRef = 242E04B318B672FA00467D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		242E04B618B672FA00467D89 /* libSPDY.macosx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSPDY.macosx.a;
+			remoteRef = 242E04B518B672FA00467D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		242E04B818B672FA00467D89 /* SPDY.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SPDY.framework;
+			remoteRef = 242E04B718B672FA00467D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		242E047018B672CB00467D89 /* Resources */ = {
@@ -259,6 +385,11 @@
 			isa = PBXTargetDependency;
 			target = 242E047118B672CB00467D89 /* SPDY Linking Test */;
 			targetProxy = 242E049218B672CB00467D89 /* PBXContainerItemProxy */;
+		};
+		242E04BF18B6732600467D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPDY;
+			targetProxy = 242E04BE18B6732600467D89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
